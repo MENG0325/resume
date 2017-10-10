@@ -1,0 +1,530 @@
+body{
+	/*height: 3000px;*/
+	background-image: url(../img/1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	background-position: 0 -100px;
+}
+header nav{
+	width: 100%;
+	height: 50px;
+	background: rgba(0,0,0,0.75);
+	position: fixed;
+	z-index: 9;
+}
+header nav .title{
+	width: 1200px;
+	height: 50px;
+	/*background: black;*/
+	margin: 0 auto; 
+}
+header nav .title .logo{
+	width: 200px;
+	height: 50px;
+	/*background: green;*/
+	float: left;
+	color: #FFFFFF;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 50px;
+	font-family: "Gisha";
+}
+header nav .title .nav{
+	width: 400px;
+	height: 50px;
+	float: right;
+}
+header nav .title ul li{
+	width: 80px;
+	height: 50px;
+	float: left;
+	color: #FFFFFF;
+	font-size: 18px;
+	text-align: center;
+	line-height: 50px;
+	transition:background 1s;
+
+}
+header nav .title ul li:hover{
+	background: #4eb2d6;
+}
+header .personal{
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+}
+header .content{
+	width: 100%;
+	height: 600px;
+	background: rgba(0,0,0,0.5);
+	border-top: 1px solid black;
+}
+header .content .d{
+	width: 800px;
+	/*background: red;*/
+	margin: 250px auto 0;
+	color: white;
+	font-size: 50px;
+	line-height: 1.5em;
+	text-align: center;
+	font-family: "Gisha";
+	border-bottom: 1px solid white;
+	
+}
+header .content .e{
+	width: 800px;
+	/*background: red;*/
+	margin: 0 auto;
+	color: white;
+	font-size: 24px;
+	line-height: 40px;
+	text-align: center;
+	font-family: "Gisha";
+	
+}
+header .content .btn{
+	width: 180px;	
+	height: 50px;
+	border: 1px solid white;
+	margin: 80px auto 0;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 15px;
+	cursor: pointer;
+	transition:background 1s;
+}
+header .content .btn:hover{
+	background: #4eb2d6;
+}
+header .content img{
+	margin: 20px auto 0;
+	width: 50px;
+	height: 50px;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	animation: move 1s infinite;
+	display: block;
+}
+@keyframes move{
+	0%{margin-top: 20px;}
+	50%{margin-top: 50px;}
+	100%{margin-top: 20px;}
+}
+/*内容*/
+.skill_box{
+	width: :100%;
+	background: rgba(60,70,80,0.8);
+	padding-top: 100px;
+	overflow: hidden;
+	padding-bottom: 100px;
+}
+.skill_box h3{
+	/*background: red;*/
+	width: 648px;
+	margin: 20px auto 0;
+	color: #fff;
+	line-height: 1.5em;
+	text-align: center;
+	font-size: 50px;
+	font-family: "HoratioDLig";
+	border-bottom: 1px solid white;
+}
+.skill_box h2{
+	/*background: red;*/
+	width: 648px;
+	
+	margin: 0 auto;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	font-family: "微软雅黑";
+}
+.skill_box p{
+	width: 700px;
+	padding-bottom: 10px;
+	margin: 10px auto 0;
+	color: #fff;
+	line-height: 1.6em;
+	text-align: center;
+	font-size: 20px;
+}
+.skill_box ul{
+	width: 1100px;
+	margin: 50px auto 0;
+	overflow: hidden;
+}
+.skill_box ul li{
+	width: 154px;
+	height: 195px;
+	/*background: red;*/
+	float: left;
+	margin-right: 35px;
+	text-align: center;
+
+}
+.skill_box ul .last{
+	margin-right: 0;
+}
+.skill_box ul li div{
+	width: 120px;
+	height: 120px;
+	border: 15px solid rgb(50,50,50);
+	margin: 0 auto;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	line-height: 120px;
+}
+.skill_box ul li div b{
+	color: white;
+	font-size: 60px;
+}
+.skill_box ul li div i{
+	color: white;
+	font-size: 20px;
+}
+.skill_box ul li span{
+	color: white;
+	font-size: 20px;
+	line-height: 50px;
+	font-family: "微软雅黑";
+}
+.skill_box ul li div:hover{
+	transition:transform 1s;
+	transform:rotateY(360deg);
+}
+.skill_box ul li:nth-child(1) div{
+	background: #88c14c;
+}
+.skill_box ul li:nth-child(2) div{
+	background: #efa338;
+}
+.skill_box ul li:nth-child(3) div{
+	background: #55cffc;
+}
+.skill_box ul li:nth-child(4) div{
+	background: #2c71cc;
+}
+.skill_box ul li:nth-child(5) div{
+	background: #f8cc2c;
+}
+.skill_box ul li:nth-child(6) div{
+	background: #f2214c;
+}
+
+/*works*/
+.works_box{
+	width: :100%;
+	background: rgba(0,0,0,0.5);
+	padding-top: 100px;
+	overflow: hidden;
+	padding-bottom: 60px;
+}
+.works_box h3{
+	/*background: red;*/
+	width: 648px;
+	margin: 10px auto 0;
+	color: #fff;
+	line-height: 1.5em;
+	text-align: center;
+	font-size: 50px;
+	font-family: "HoratioDLig";
+	border-bottom: 1px solid white;
+}
+.works_box p{
+	width: 1000px;
+	padding-bottom: 50px;
+	margin: 50px auto 0;
+	color: #fff;
+	line-height: 1.6em;
+	text-align: center;
+	font-size: 20px;
+}
+.works_box .tab{
+	width: 1070px;
+	height: 465px;
+	/*background: red;*/
+	margin: 10px auto 40px;
+}
+.works_box .tab .anniu_box{
+	width: 335px;
+	height: 40px;
+	/*background: black;*/
+	margin: 0 auto;
+}
+.works_box .tab .anniu_box .anniu{
+	width: 78px;
+	height: 38px;
+	border: 1px solid white;
+	color: white;
+	line-height: 36px;
+	border-radius: 4px;
+	font-size: 20px;
+	text-align: center;
+	float: left;
+	margin-right: 5px;
+}
+.works_box .tab .anniu_box .anniu:nth-child(4){
+	margin-right: 0;
+}
+.works_box .tab .content_box{
+	width: 1070px;
+	height: 400px;
+	/*background: red;*/
+	margin-top: 25px;
+}
+.works_box .tab .content_box ul{
+	width: 1070px;
+	height: 400px;
+	/*background: green;*/
+	margin: 0 auto;
+}
+.works_box .tab .content_box ul li{
+	width: 260px;
+	height: 195px;
+	background: rgb(200,200,200);
+	float: left;
+	overflow: hidden;
+}
+.works_box .tab .content_box ul li:nth-child(1){
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.works_box .tab .content_box ul li:nth-child(2){
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.works_box .tab .content_box ul li:nth-child(3){
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.works_box .tab .content_box ul li:nth-child(4){
+	margin-bottom: 10px;
+}
+.works_box .tab .content_box ul li:nth-child(5){
+	margin-right: 10px;
+}
+.works_box .tab .content_box ul li:nth-child(6){
+	margin-right: 10px;
+}
+.works_box .tab .content_box ul li:nth-child(7){
+	margin-right: 10px;
+}
+.works_box .tab .content_box ul:nth-child(2){
+	display: none;
+
+}
+.works_box .tab .content_box ul:nth-child(3){
+	display: none;
+}
+.works_box .tab .content_box ul:nth-child(4){
+	display: none;
+}
+.works_box .tab .content_box ul li img{
+	transition:transform 1s;
+
+}
+.works_box .tab .content_box ul li img:hover{
+	transform:scale(1.2);
+s
+}
+
+/*about*/
+.about_box{
+	width: 100%;
+	background:#2c3138;
+}
+.about_box .line{
+	width: 100%;
+	overflow: hidden;
+}
+/*12*/
+.about_box .line .content1 p{
+	width: 300px;
+	color: #fff;
+	margin: 100px auto 0;
+
+}
+.about_box .line .content1{
+	width: 45%;
+	position: relative;
+	float: left;
+	font-size: 0;
+}
+.about_box .line .content1 img{
+	width: 100%;
+}
+.about_box .line .content1 .mask{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	left:0;top:0;
+	text-align: center;
+	font-size: 40px;
+	font-family: "Gisha";
+}
+.about_box .line .content2 {
+	width: 55%;
+	float: left;
+}
+.about_box .line .content2 p{
+	width: 300px;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	font-family: "Gisha";
+	margin: 20px auto 0;
+
+}
+.about_box .line .content2 h3{
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	font-family: "Gisha";
+	margin: 110px auto 0;
+}
+
+/*3 4*/
+.about_box .line .content3 {
+	width: 45%;
+	float: left;
+}
+.about_box .line .content3 p{
+	width: 300px;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	font-family: "Gisha";
+	margin: 20px auto 0;
+
+}
+.about_box .line .content3 h3{
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	font-family: "Gisha";
+	margin: 110px auto 0;
+}
+.about_box .line .content4 p{
+	width: 300px;
+	color: #fff;
+	margin: 100px auto 0;
+
+}
+.about_box .line .content4{
+	width: 55%;
+	position: relative;
+	float: left;
+	font-size: 0;
+}
+.about_box .line .content4 img{
+	width: 100%;
+}
+.about_box .line .content4 .mask{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	left:0;top:0;
+	text-align: center;
+	font-size: 40px;
+	font-family: "Gisha";
+}
+/*56*/
+.about_box .line .content5 p{
+	width: 300px;
+	color: #fff;
+	margin: 100px auto 0;
+
+}
+.about_box .line .content5{
+	width: 45%;
+	position: relative;
+	float: left;
+	font-size: 0;
+}
+.about_box .line .content5 img{
+	width: 100%;
+}
+.about_box .line .content5 .mask{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	left:0;top:0;
+	text-align: center;
+	font-size: 40px;
+	font-family: "Gisha";
+}
+.about_box .line .content6 {
+	width: 55%;
+	float: left;
+
+}
+.about_box .line .content6 p{
+	width: 300px;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	font-family: "Gisha";
+	margin: 20px auto 0;
+
+}
+.about_box .line .content6 h3{
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	font-family: "Gisha";
+	margin: 110px auto 0;
+}
+
+/*页底*/
+footer{
+	width: 100%;
+	padding: 30px 0;
+
+}
+footer h3{
+	width: 620px;
+	height: 100px;
+	/*background: red;*/
+	margin: 0 auto;
+
+}
+footer h3 span{
+	float: left;
+	width: 200px;
+	border-bottom: 1px solid white;
+}
+footer h3 .line_through{
+	margin-top: 40px;
+}
+footer h3 .title{
+	margin-top: 16px;
+	font-size: 36px;
+	color: white;
+	text-align: center;
+	border: 0;
+}
+footer p{
+	font-size: 28px;
+	color: white;
+	text-align: center;
+}
+.backtop{
+	width: 60px;
+	height: 60px;
+	/*background: yellow;*/
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+
+}
+.backtop img{
+	width: 60px;
+	height: 60px;
+}
