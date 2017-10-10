@@ -52,6 +52,7 @@ header nav .title ul li:hover{
 header .personal{
 	width: 100%;
 	background: rgba(0,0,0,0.5);
+	margin: 0 auto;
 }
 header .content{
 	width: 100%;
@@ -115,7 +116,7 @@ header .content img{
 /*内容*/
 .skill_box{
 	width: :100%;
-	background: rgba(60,70,80,0.8);
+	background: rgba(50,70,100,0.8);
 	padding-top: 100px;
 	overflow: hidden;
 	padding-bottom: 100px;
@@ -151,7 +152,7 @@ header .content img{
 	color: #fff;
 	line-height: 1.6em;
 	text-align: center;
-	font-size: 16px;
+	font-size: 18px;
 	font-family: "方正兰亭超细黑简体";
 	text-decoration: none;
 	font-weight: 100;
@@ -174,14 +175,14 @@ header .content img{
 	margin-right: 0;
 }
 .skill_box ul li div{
-	width: 120px;
-	height: 120px;
-	border: 15px solid rgb(50,50,50);
+	width: 140px;
+	height: 140px;
+	border: 10px solid rgb(70,70,70);
 	margin: 0 auto;
 	border-radius: 50%;
 	color: #fff;
 	text-align: center;
-	line-height: 120px;
+	line-height: 140px;
 }
 .skill_box ul li div b{
 	color: white;
@@ -340,7 +341,7 @@ s
 /*about*/
 .about_box{
 	width: 100%;
-	background:#2c3138;
+	background: rgb(50,70,100);
 }
 .about_box .line{
 	width: 100%;
@@ -519,9 +520,12 @@ footer h3 .title{
 	border: 0;
 }
 footer p{
-	font-size: 28px;
+	font-size: 26px;
 	color: white;
 	text-align: center;
+	font-family: "微软雅黑";
+	text-decoration: none;
+	font-weight: 100px;
 }
 .backtop{
 	width: 60px;
