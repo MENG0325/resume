@@ -16,5 +16,14 @@ $(function(){
 		})
 	})
 		$(".backtop").backTop();
-	//$(".backtop") 返回按钮父容器  
+	//$(".backtop") 返回按钮父容器 
+	$(".triangle").click(function () {
+        $({dNum:0}).animate({dNum:600},{
+            duration:1000,
+            step: function () {
+                $(window).scrollTop(this.dNum);
+            }
+        })
+    });
+ 
 })
